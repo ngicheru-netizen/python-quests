@@ -1,3 +1,7 @@
+# Quest 28: The Adventure Begins
+# This is a simple text-based adventure game that uses functions and if statements to create a branching
+
+#This function starts the adventure and presents the user with a choice of two paths. 
 def start():
     print("\nYou are standing in a dark forest.")
     print("There are two paths ahead of you.")
@@ -11,7 +15,7 @@ def start():
         print("Invalid choice. Try again.")
         start()
 
-
+#This function represents the left path and presents the user with a choice to fight or run from a dragon.
 def cave():
     print("\nYou enter a dark cave and find a dragon blocking your path!")
     choice = input("Do you 'fight' or 'run'? ").lower()
@@ -24,7 +28,7 @@ def cave():
         print("Invalid choice. Try again.")
         cave()
 
-
+#This function represents the right path and presents the user with a choice to swim or wait at a river.
 def river():
     print("\nYou reach a wide river with a mysterious glow beneath the water.")
     choice = input("Do you 'swim' or 'wait'? ").lower()
