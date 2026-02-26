@@ -12,4 +12,4 @@ while guess != secret_number:
     elif guess < secret_number:
         print("Too low!")
     else:
-        print("Correct! You are the Number Wizard!")
+        print("Correct! You are genius!,what a funny game")

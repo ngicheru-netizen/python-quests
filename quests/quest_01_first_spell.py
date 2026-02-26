@@ -1,4 +1,4 @@
 # Quest 1: Your First Spell
-# This program prints a welcome message for a fellow adventurer.
+# This program prints a welcome message.
 
-print("Welcome, brave adventurer! Your journey into the world of Python begins now!")
+print("Welcome, programmer! Your first quest is to learn how to print a message to the console. Let's get started!")

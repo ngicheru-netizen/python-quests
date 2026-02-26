@@ -4,4 +4,4 @@
 for number in range(10, 0, -1):
     print(number)
 
-print("Blastoff!")
+print("Downward counting complete! Liftoff!")

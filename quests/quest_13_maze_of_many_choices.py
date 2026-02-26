@@ -10,4 +10,4 @@ elif score >= 80:
 elif score >= 70:
     print("C")
 else:
-    print("Needs Improvement")
+    print("Needs some Improvement")
